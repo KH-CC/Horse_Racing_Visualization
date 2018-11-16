@@ -9,6 +9,7 @@ function parentDisplay() //Display parent infomation of all horse, should be cal
 
 function onMouseClick(evt) //A call back method for eventlistener(仮),pass horse ID 
 {
-    recordDisplay(evt)
-    personDisplay(evt)
+    var horseID = evt
+    recordDisplay(horseID)
+    personDisplay(horseID)
 }

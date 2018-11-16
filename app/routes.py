@@ -30,3 +30,11 @@ def getRecordData():
     result['id'] = id
     return jsonify(result)
 
+@app.route('/getPersonData',methods=['POST'])
+def getPersonData():
+    data = json.loads(request.form.get('data'))
+    id = data["id"]
+
+    result = dict()
+    result['id'] = id
+    return jsonify(result)

@@ -1,8 +1,8 @@
 
-function recordDisplay(horse) //Display infomation of input horse ID
+function recordDisplay(horseID) //Display infomation of input horse ID
 {
     var data = {
-        data: JSON.stringify({"id":horse})
+        data: JSON.stringify({"id":horseID})
     }
     $.ajax({
         url:"/getRecordData",
@@ -10,7 +10,7 @@ function recordDisplay(horse) //Display infomation of input horse ID
         data:data,
         success:function(result){
             recordDiv.innerHTML=result.id;
-            console.log(result.id)
+            
         }
     })
     
