@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+
+        <script type="text/javascript">
+            var dataHorse = {{data.horse_data|safe}}
+            var dataRecord = {{data.record_data|safe}};
+        </script>
+        <script type="text/javascript"src="/static/js/imported/d3.js"></script>
+        <script type="text/javascript"src="/static/js/imported/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript"src="/static/js/main.js"></script>
+        <script type="text/javascript"src="/static/js/recordHorse.js"></script>
+        <script type="text/javascript"src="/static/js/personHorse.js"></script>
+        <script type="text/javascript"src="/static/js/parentHorse.js"></script>
+    </head>
+
+    <body onLoad="init()">
+    <div id="canvas">
+        <div id="left">
+            <div id="parentHorse">
+                <button onClick= 'onMouseClick(1)'>test</button>
+            </div>
+        </div>
+        <div id="right">      
+            <div id="personHorse"></div>
+            <div id="recordHorse"></div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

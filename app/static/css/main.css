@@ -1,0 +1,45 @@
+body{
+    width:100%;
+    height:100;
+}
+#canvas{
+    position: relative;
+    top:50px;
+    left:50px;
+    border:1px solid;
+    width:2000px;
+    height:1000px;
+}
+
+#left{
+    width:60%;
+    height:100%;
+}
+#right{
+    position: absolute;
+    width:40%;
+    height:100%;
+    top: 0;
+    left:60%;
+    right:0;
+}
+#parentHorse{  
+    border:1px solid;
+    width:100%;
+    height:100%;
+    background-color:green
+}
+#personHorse{
+    border:1px solid;
+    top:0px;
+    width:100%;
+    height:50%;
+    background-color:yellow
+}
+#recordHorse{
+    border:1px solid;
+    top:50%;
+    width:100%;
+    height:50%;
+    background-color: rgb(72, 72, 94)
+}
