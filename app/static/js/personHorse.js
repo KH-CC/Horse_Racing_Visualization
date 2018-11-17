@@ -9,7 +9,7 @@ function personDisplay(horseID) //Display person information of input horse ID
         type:"POST",
         data:data,
         success:function(result){
-            recordDiv.innerHTML=result.id;
+            personDiv.innerHTML=result.id;
         }
     })
     
