@@ -25,12 +25,12 @@ Flask is used as framework
 
         flask run
 
-5.  In browser, (Chrome is preferred), type the following as url
+5.  In brower (Chrome is preferred), type the following as url
 
         localhost:5000
 
 6.  If you are using vscode:
     
-    - Firstly please select the python interpreter to the virtual environment envName in the buttom of vscode.
+    - Firstly please select the python interpreter to the virtual environment `envName` in the buttom of vscode.
 
-    - Second press `cmd + shift + x` to open vscode extension, then install `Django Template` and reload.
+    - Secondly press `cmd + shift + x` to open vscode extension, then install `Django Template` and reload.
