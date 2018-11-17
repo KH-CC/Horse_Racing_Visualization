@@ -3,7 +3,7 @@ Horse_Racing_Visualization
 Project of MSBD5005
 ---
 Flask is used as framework
-1.  Create and enter an visual environment for python 
+1.  Create and enter an virtual environment for python 
     
     For anaconda on MacOS, type in terminal:
     
@@ -17,7 +17,7 @@ Flask is used as framework
 
         conda install pandas
 
-3.  Change environment path, type in terminal:
+3.  Change environment path, open the project folder in the terminal, then type:
 
         export FLASK_APP=horse_racing_visualization.py
 
@@ -29,3 +29,8 @@ Flask is used as framework
 
         localhost:5000
 
+6.  If you are using vscode:
+    
+    - Firstly please select the python interpreter to the virtual environment envName in the buttom of vscode.
+
+    - Second press `cmd + shift + x` to open vscode extension, then install `Django Template` and reload.
