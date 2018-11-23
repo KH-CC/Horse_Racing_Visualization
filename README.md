@@ -20,11 +20,11 @@ Flask is used as framework
 3.  Change environment path, open the project folder in the terminal/cmd.
     - For MacOS, type:
 
-        export FLASK_APP=horse_racing_visualization.py
+                export FLASK_APP=horse_racing_visualization.py
 
     - For Windows, type:
 
-        set FLASK_APP=horse_racing_visualization.py
+                set FLASK_APP=horse_racing_visualization.py
 
 4.  Flask debug mode allows refresh server automatically when script changes.
     
