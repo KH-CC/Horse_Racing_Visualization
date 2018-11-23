@@ -17,19 +17,46 @@ Flask is used as framework
 
         conda install pandas
 
-3.  Change environment path, open the project folder in the terminal, then type:
+3.  Change environment path, open the project folder in the terminal/cmd.
+    - For MacOS, type:
 
         export FLASK_APP=horse_racing_visualization.py
 
-4.  Run the server, type in terminal
+    - For Windows, type:
+
+        set FLASK_APP=horse_racing_visualization.py
+
+4.  Flask debug mode allows refresh server automatically when script changes.
+    
+    - For MacOS:
+
+        - Turn on debug mode, in terminal, type:
+
+                export FLASK_ENV=development
+
+        - Turn off debug mode, in terminal, type:
+
+                export FLASK_ENV=
+    
+    - For Windows:
+
+        - Turn on debug mode, in terminal, type:
+
+                set FLASK_ENV=development
+
+        - Turn off debug mode, in terminal, type:
+
+                set FLASK_ENV=
+
+5.  Run the server, type in terminal
 
         flask run
 
-5.  In brower (Chrome is preferred), type the following as url
+6.  In brower (Chrome is preferred), type the following as url
 
         localhost:5000
 
-6.  If you are using vscode:
+7.  If you are using vscode:
     
     - Firstly please select the python interpreter to the virtual environment `envName` in the buttom of vscode.
 
