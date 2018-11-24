@@ -1,0 +1,38 @@
+.record_svg {
+    font: 10px sans-serif;
+}
+
+.record_background path {
+    fill: none;
+    stroke: #ddd;
+    shape-rendering: crispEdges;
+}
+
+.record_foreground path {
+    fill: none;
+    stroke: steelblue;
+}
+
+.record_brush .extent {
+    fill-opacity: .3;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.record_axis line,
+.record_axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.record_axis text {
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+    cursor: move;
+}
+
+.record_axis .axis-label {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

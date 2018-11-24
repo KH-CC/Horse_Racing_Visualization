@@ -26,9 +26,21 @@ def getRecordData():
     data = json.loads(request.form.get('data'))
     id = data["id"]
 
+    
+    all_record = pd.read_csv("app/static/dataset/recordHorse/all_record.csv")
+    record_result = all_record[all_record.HorseID==id]
+    attributes = ["Rtg","Pla","RaceDate",'Dist','FinishTime',"DeclarHorseWt"]
+    record_result = record_result[attributes]
+    record_result.index = pd.RangeIndex(len(record_result))
+    record_result.to_csv("app/static/dataset/recordHorse/result.csv",index=False)
+    
     result = dict()
-    result['id'] = id
+    result['state'] = True
     return jsonify(result)
+
+
+
+
 
 @app.route('/getPersonData',methods=['POST'])
 def getPersonData():

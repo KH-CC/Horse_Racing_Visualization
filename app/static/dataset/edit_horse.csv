@@ -1,0 +1,82 @@
+HorseID,Name,Country,Age,Color,Sex,ImportType,SeasonStakes,TotalStakes,123Starts,StartsPast10,Trainer,Owner,CurrentRating,StartRating,Sire,Dam,DamSire
+A002,PRAWN BABA,AUS,5,Brown,Gelding,PP,2963900,5946425,3-5-1-23,1,J Size,Kevin Lau Yat Sun,100,91,Duke Of Marmalade,Countess Of Tiba,Second Empire
+A024,KEEN VENTURE,AUS,5,Chestnut,Gelding,PP,916050,3530250,1-4-0-18,1,A Lee,Mr & Mrs Victor Lui Ting and Ian Lui,86,87,Sebring,Morning Dews,Peintre Celebre
+A042,SWISS WARRIOR,NZ,6,Chestnut,Gelding,PP,0,142025,0-0-1-4,0,T P Yung,Tsang Kam Chuen,69,69,Swiss Ace,Poetic Music,Stravinsky
+A062,TOP STRIKE,NZ,5,Bay,Gelding,PPG,0,0,0-0-0-2,2,A Lee,Happy Racing Syndicate,49,52,Swiss Ace,Beaver Cove,Mossman
+A067,TANG FLEMING,GB,5,Bay,Gelding,PP,746700,1574150,1-2-2-15,0,C W Chang,Tang Xiao Dan,76,75,Makfi,High Cross,Cape Cross
+A074,WINNING VANGOGH,NZ,5,Bay,Gelding,PP,1152800,1152800,0-4-0-9,1,C S Shum,Vincent Cheung Lam Hung,78,75,Swiss Ace,Goldie Thorn,Thorn Park
+A093,EAGLE WAY,AUS,5,Chestnut,Gelding,PP,5310000,11362500,3-2-3-15,1,J Moore,Siu Pak Kwan,118,112,More Than Ready,Wedgetail Eagle,Lure
+A128,PHANTOM FALCON,NZ,4,Bay,Gelding,PPG,1484850,1854450,1-5-1-11,0,L Ho,Clement Ma Kang Ching,64,53,Swiss Ace,River Nymph,Captain Rio
+A149,ROCKY MALONE,NZ,5,Bay,Gelding,PP,0,0,0-0-0-1,0,C S Shum,DBS Lowcock Syndicate,80,80,Swiss Ace,More Assertive,Zeditave
+A154,DR WIN WIN,IRE,5,Bay,Gelding,PP,2134900,2134900,2-2-0-13,0,F C Lor,Getmore Group Syndicate,83,71,Makfi,Baine,Country Reel
+A171,STAR OF JOY,AUS,4,Bay,Gelding,PP,576400,953075,0-0-4-13,1,K L Man,Lo Chuen Hang,62,65,Snitzel,At Ease,Canny Lad
+A189,ELECTRIC LIGHTNING,AUS,4,Bay,Gelding,PPG,686400,1379400,2-1-1-13,1,D E Ferraris,Samson Yip Yan Tion,58,57,Not A Single Doubt,Plain Crazy,Bite The Bullet
+A207,FANTASTIC SHOW,AUS,3,Bay,Gelding,PPG,70000,717800,1-1-0-8,0,Y S Tsui,HKPCA Syndicate,54,59,Not A Single Doubt,Evoked,Song Of Tara
+A222,REMARKABLE,AUS,4,Bay,Gelding,PPG,1680800,1680800,3-1-0-11,1,J Size,The Hon Andrew K N Li & Tan Boon Seng,64,46,More Than Ready,Jujube,Encosta de Lago
+A252,SOUTHERN LEGEND,AUS,5,Bay,Gelding,PP,6776900,8524400,4-1-1-11,1,C Fownes,Boniface Ho Ka Kui,123,93,Not A Single Doubt,Donna's Appeal,Carnegie
+A280,CREME BRULEE,NZ,4,Bay,Gelding,PPG,299200,299200,0-1-0-7,2,C H Yip,Yung Chak Man,44,48,Showcasing,Twelve Carat,Snaadee
+A290,WIN BEAUTY WIN,NZ,3,Bay,Gelding,PPG,2634700,2634700,3-1-0-5,1,P O'Sullivan,Kitty Kwok Sea Nga,78,52,Makfi,Mandeville,Hussonet
+A294,KHAKI,AUS,4,Brown,Gelding,PP,0,0,0-0-0-9,0,A T Millard,Edwin Kwok Wai Ming,56,74,Commands,Chameleon,Encosta de Lago
+A297,COBY BOY,AUS,5,Chestnut,Gelding,PP,1427000,2130950,2-1-0-4,2,T P Yung,Huen Ho Yin,87,79,Sebring,Elle Labelle,Elvstroem
+A313,HAPPY WARRIOR,AUS,4,Brown,Gelding,ISG,0,0,0-0-0-4,0,J Moore,Brian Leung Hung Tak,46,52,More Than Ready,Zingaling,Redoute's Choice
+A337,SHANGHAI MASTER,AUS,4,Brown,Gelding,PP,975950,975950,1-0-1-11,1,K W Lui,Perfect Bonding Syndicate,74,77,More Than Ready,Rose Of Hallowell,Commands
+A338,BOMBAY BLITZ,AUS,4,Chestnut,Gelding,PP,229250,229250,0-0-1-5,0,C Fownes,Ranjan Tikam Mahtani,80,82,Snitzel,Covertly,Metal Storm
+A377,GUNNISON,AUS,3,Chestnut,Gelding,PP,223200,223200,0-0-0-4,2,J Size,Frank Feng Ching Yeng,84,86,Not A Single Doubt,Colorado Claire,Hussonet
+A386,SINCERE HORSE,AUS,3,Bay,Gelding,PPG,0,0,0-0-0-3,0,T P Yung,Samuel Chan Min,45,52,Not A Single Doubt,Five Star Belle,General Nediym
+A418,FORTUNE BOOTH,AUS,4,Chestnut,Gelding,PP,2181600,2181600,2-1-1-8,1,M J Freedman,Simon Liu Wei Jie,89,73,More Than Ready,Gunawati,Galileo
+B040,LEAN PERFECTION,AUS,3,Bay,Gelding,PPG,1828500,1828500,3-0-0-4,1,C H Yip,Cheng Wan Wai,80,52,Sebring,Suzy Rocks,Rock Of Gibraltar
+B041,LUCKY COIN,NZ,3,Brown,Gelding,PPG,61600,61600,0-0-0-5,2,M J Freedman,Lee Ping Kei,43,52,Showcasing,Elusive Rosie,Elusive City
+B042,COOL ARMY,NZ,3,Bay,Brown,PPG,0,0,0-0-0-4,1,C Fownes,Fan Tat Yan,45,52,Showcasing,Valderama,Elusive City
+B067,FRESH POWER,NZ,4,Bay,Gelding,PPG,173800,173800,0-0-1-7,2,Y S Tsui,Alan Wong Chi Kei & Oscar Wong Wing Lun,48,52,Makfi,Bannisters,Redoute's Choice
+B080,SHIMMER AND SHINE,NZ,3,Bay,Gelding,PPG,52800,52800,0-0-0-2,1,A T Millard,Michael N Smith,51,52,Showcasing,Princess Amidala,Don Eduardo
+B083,UGLY WARRIOR,NZ,3,Chestnut,Gelding,PPG,2784800,2784800,4-1-0-5,1,Y S Tsui,Just Fantastic Syndicate,87,52,Swiss Ace,Ugly Betty,High Yield
+B107,ROMANTIC JOURNEY,AUS,4,Chestnut,Gelding,PP,0,0,0-0-0-6,1,A S Cruz,Alice Ming Bo Ting,56,70,More Than Ready,Perfect Truth,Galileo
+B135,LUCKY BABY,NZ,3,Bay,Gelding,PPG,0,0,0-0-0-1,0,D J Hall,Barbarian Syndicate,52,52,Makfi,Make Me Strong,Danehill
+B166,GREAT HONOUR,AUS,4,Chestnut,Gelding,PP,0,0,0-0-0-3,1,R Gibson,Wilson Wong Kan Po & Derek Wong Sau Leung,79,82,Sebring,Adonia Queen,Cherokee Run
+B181,FIAMA,AUS,4,Bay,Gelding,PP,825300,825300,1-0-0-4,2,M J Freedman,Wei Ruhai,76,71,Makfi,Proud Hussey,Hussonet
+B189,HAPPY SEBRING,AUS,3,Bay,Gelding,PPG,30800,30800,0-0-0-1,1,K W Lui,Dr Lawrence Lam Chi Kit,52,52,Sebring,Here de Joy,Dehere
+B190,GOLDEN DASH,AUS,3,Bay,Gelding,PPG,1157200,1157200,2-0-1-4,0,C S Shum,Weber Lo Wai Pak,66,52,Snitzel,Aussie Christmas,Johannesburg
+B251,LASTING FRIENDSHIP,AUS,4,Bay,Gelding,PP,0,0,0-0-0-2,1,L Ho,Forever Friendship Syndicate,68,70,Commands,Loch Maryanne,General Nediym
+B259,LIGHTNING TREASURE,NZ,3,Brown,Gelding,PPG,0,0,0-0-0-1,1,P F Yiu,Chan Tung & Kwan Wah,52,52,Swiss Ace,Authentic Desire,Howbaddouwantit
+B273,SUMMER PASSAGE,AUS,3,Bay,Colt,PP,0,0,0-0-0-1,1,P O'Sullivan,Henry Chuang Yueheng,88,88,Snitzel,Subsequent,Encosta de Lago
+B304,SEBFIRE,AUS,3,Bay,Gelding,PP,45850,45850,0-0-0-1,1,C Fownes,Winnie Law Wing Yin & Wilson Law Wai Shan,80,80,Sebring,Firemaid,Machiavellian
+B305,EPTIMUM,AUS,3,Bay,Gelding,PP,0,0,0-0-0-1,1,C Fownes,Derek Tam Lap Tak,87,87,Snitzel,Paramount,Monashee Mountain
+B314,SAVVY SEVEN,AUS,2,Chestnut,Gelding,PPG,0,0,0-0-0-1,1,J Moore,Julian Hui Chun Hang & Michele Monique Reis,0,0,Sebring,Sensibility,Redoute's Choice
+B339,VILLA FIONN,AUS,3,Bay,Gelding,PP,0,0,0-0-0-1,1,C S Shum,Yeung Kwong Fat,73,73,Sebring,Aeronwy,Dylan Thomas
+M273,GLORY HORSIE,AUS,9,Bay,Gelding,PPG,231000,4332595,5-6-9-68,0,M J Freedman,Law Cheuk,24,32,Flying Spur,Hasna,Snippets
+P310,TRIUMPHANT JEWEL,AUS,7,Chestnut,Gelding,PPG,445400,6273875,6-6-6-62,3,D Cruz,Big Century Syndicate,61,71,Not A Single Doubt,Dark Topaze,Fuji Kiseki
+S078,SPINNING DANCER,NZ,8,Bay,Gelding,PP,193600,3564475,3-5-7-57,1,K L Man,Peter Chu Ka Lok,47,54,Commands,Annie Daly,Spinning World
+S397,DIAMOND MASTER,AUS,6,Bay,Gelding,PPG,353700,3489950,3-3-4-38,0,P F Yiu,HK Diamond Bourse Racing Syndicate,62,69,Not A Single Doubt,Sandy Desert,Line In The Sand
+S419,SO FAST,AUS,6,Bay,Gelding,PPG,170300,3840125,4-0-6-26,1,W Y So,Stephen So Chi Ming & Samuel Chan Ying Leung,68,73,Commands,La Silva,Octagonal
+T098,TRAVEL FIRST,IRE,7,Bay,Gelding,PP,445400,4257300,2-5-4-44,2,C H Yip,Jackie Wong See Sum,62,74,Duke Of Marmalade,Starship,Galileo
+T211,LUCKY BUBBLES,AUS,6,Chestnut,Gelding,PP,2462500,30138550,7-7-1-22,1,K W Lui,Lucky Syndicate,123,127,Sebring,Bubble Below,Hussonet
+T280,LE PEGASE,AUS,5,Bay,Gelding,PPG,636900,895200,1-2-1-27,1,A Lee,The L & L Racing Syndicate,24,19,Flying Spur,Sunday Lady,Zabeel
+T281,WILLIE WAY,AUS,6,Bay,Gelding,PPG,831850,3659550,4-4-3-25,2,P O'Sullivan,Henry Chuang Yueheng,73,75,More Than Ready,Dizelle,Zabeel
+T282,MUTUAL JOY,AUS,5,Bay,Gelding,PPG,0,1685460,3-0-2-20,0,L Ho,Leung Kwan Tong,51,53,Snitzel,Trois Couleurs,Carnegie
+T289,SHOWING CHARACTER,GB,6,Bay,Gelding,PP,554400,2028450,2-4-2-36,1,D E Ferraris,Gold Mines Syndicate,44,48,Showcasing,Lalectra,King Charlemagne
+T341,WHO ELSE BUT YOU,NZ,6,Bay,Gelding,ISG,1644050,3355563,4-2-1-22,0,F C Lor,Vicky Tang,72,67,Commands,Laurinel Princess,Desert Prince
+T345,LONDON MASTER,AUS,6,Bay,Gelding,ISG,1280400,2485200,3-4-2-26,1,D E Ferraris,Yau Tim,53,41,Commands,Suzy Smart,Smart Strike
+T375,SICHUAN DAR,AUS,6,Bay,Gelding,PP,1696900,5337500,3-3-1-25,1,A T Millard,Boniface Ho Ka Kui,99,85,Not A Single Doubt,Apocrypha,Octagonal
+T405,I'M A WITNESS,NZ,6,Bay,Gelding,PPG,345050,3338625,2-5-6-41,2,A S Cruz,Arthur Antonio da Silva,39,61,Commands,Sing Song Girl,Generous
+T429,STARRY STARLIES,AUS,5,Bay,Gelding,PPG,191400,490650,0-0-5-27,2,C W Chang,Chan Ying Kit & Chan Kan Sau Han,12,19,Not A Single Doubt,Fasadina,Fasliyev
+T436,SHOW MISSION,NZ,5,Bay,Gelding,PPG,677600,1250900,1-4-1-23,0,Y S Tsui,Wong Kiam Seng,40,37,Showcasing,Olga Palosky,Crested Wave
+V002,DIAMOND DRAGON,AUS,6,Bay,Gelding,PP,1231400,3111725,3-2-2-27,2,K W Lui,Ng Kwok Kay,67,63,Not A Single Doubt,Umatilly,Umatilla
+V011,FORMULA GALORE,AUS,5,Bay,Gelding,PPG,347600,2046600,2-2-5-32,0,C Fownes,Lillian Lee Lai Man,40,52,Not A Single Doubt,Evening Pleasures,Dehere
+V020,JADE FORTUNE,NZ,5,Chestnut,Gelding,PP,1041450,2591375,2-2-1-26,1,K L Man,Christy Ng Ling Ling,78,77,Showcasing,Shades Of Silk,Thunder Gulch
+V078,MEGA RED,AUS,6,Bay,Gelding,PP,0,2363425,2-2-1-9,0,C Fownes,Mok Kam Hung & Michael Mok Kwan Yuen,88,88,More Than Ready,Special Cuvee,Fasliyev
+V105,SUPER SPRINTER,NZ,5,Bay,Gelding,PPG,0,2094150,3-1-3-17,0,C S Shum,Dr Peter Cheng Ming Chuen,64,67,Showcasing,Danceabeel,Zabeel
+V150,MIGHTY MAVERICK,AUS,6,Bay,Gelding,PP,177850,2737100,2-1-3-37,2,D Cruz,Peter Cheung Shu Wing,51,78,Snitzel,Thunder Belle,Thunder Gulch
+V151,MOMENTUM LUCKY,NZ,5,Brown,Gelding,PPG,279000,3348575,3-3-4-24,1,T P Yung,Paul Yeung Hoi Shan,78,89,Commands,Tampiko,Lonhro
+V163,JOY PLUS FUN,AUS,5,Bay,Gelding,PPG,0,56000,0-0-0-8,0,D Cruz,Mr & Mrs Johnny Wong Chun Nam,27,27,Sebring,Midnight Queen,Carnegie
+V250,HINYUEN SWIFTNESS,AUS,5,Bay,Gelding,PP,325600,325600,0-1-1-20,1,C H Yip,Mr & Mrs Tang Kwok Yung,45,58,Duke Of Marmalade,Stolen Girlfriend,Canny Lad
+V258,WONDERFUL CHASER,AUS,5,Bay,Gelding,PPG,491700,667700,1-1-1-17,1,K W Lui,Yeung Lin Kar,32,27,Not A Single Doubt,Leisure Pass,Umatilla
+V306,BUMBLE BABY,AUS,4,Chestnut,Gelding,PPG,0,802200,1-0-2-15,0,J Moore,Lee Ching Yiu,45,45,Snitzel,Behind,General Nediym
+V324,NOBLE DE LOVE,AUS,5,Bay,Gelding,ISG,589600,1253200,1-2-3-16,0,F C Lor,Mr & Mrs Tony Tang Wai Bun,54,51,Commands,Terrenora,Encosta de Lago
+V334,RED HORSE,AUS,5,Bay,Gelding,ISG,717200,1507850,3-0-2-23,2,C H Yip,Red Horse Syndicate,51,46,Flying Spur,Vivacious Spirit,Bel Esprit
+V341,DIAMOND LEGEND,AUS,5,Brown,Gelding,PP,501600,715800,1-1-0-17,1,P O'Sullivan,Willie Yiu Man Hung & Victor Yiu Wai Yin,47,49,More Than Ready,Aqua d'Amore,Danehill
+V342,LITTLE GIANT,NZ,5,Bay,Gelding,PP,1060200,1965400,2-0-1-3,0,D J Hall,Wizard Syndicate,93,85,Swiss Ace,Princess Carolina,More Than Ready
+V347,CHEER WIN,NZ,4,Bay,Gelding,PPG,122500,1962525,1-5-1-22,2,P F Yiu,Henry Chan Chi Chiu & Chan Chee Ling,54,65,Showcasing,Spamalot,Stravinsky
+V348,SHARPMIND,NZ,4,Chestnut,Gelding,PPG,1443200,1443200,2-2-0-11,0,P F Yiu,Vincent Chan Wing Sing & Jason Chan Kam Kwan,53,43,Swiss Ace,Perfect Silhouette,More Than Ready
+V375,HAPPY BEAUTY,NZ,5,Bay,Brown,PPG,475200,834300,2-0-1-18,1,K W Lui,Beauty Team Syndicate,36,38,Makfi,Starboard Light,Mark Of Esteem
+V381,LET US WIN,AUS,5,Brown,Gelding,PP,763500,1010525,0-2-3-26,3,J Moore,So Kai Sing,60,77,Sebring,Steal My Love,Marauding
+V385,LUNAR ZEPHYR,AUS,4,Bay,Gelding,PPG,340560,1062960,1-2-0-15,1,W Y So,Timon Tai,49,51,Commands,Gemadaily,Strategic
