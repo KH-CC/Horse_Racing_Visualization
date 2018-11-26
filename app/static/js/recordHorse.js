@@ -4,7 +4,7 @@ function recordDisplay(horseID) //Display infomation of input horse ID
         RecordDiv.removeChild(RecordDiv.firstChild)
     }
     var title = document.createElement("p");
-    var textnode = document.createTextNode(" Past Record");
+    var textnode = document.createTextNode("Past Record");
     title.appendChild(textnode)
     RecordDiv.appendChild(title)
     var data = {
