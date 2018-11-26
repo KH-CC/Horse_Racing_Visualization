@@ -3,6 +3,10 @@ function recordDisplay(horseID) //Display infomation of input horse ID
     while (RecordDiv.firstChild) {
         RecordDiv.removeChild(RecordDiv.firstChild)
     }
+    var title = document.createElement("p");
+    var textnode = document.createTextNode(" Past Record");
+    title.appendChild(textnode)
+    RecordDiv.appendChild(title)
     var data = {
         data: JSON.stringify({
             "id": horseID
