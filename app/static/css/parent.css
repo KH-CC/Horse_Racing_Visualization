@@ -1,0 +1,17 @@
+.parent_node circle {
+  /*fill: steelblue;*/
+  stroke-width: 2px;
+  stroke: #fff;
+  /*stroke: #fff;*/
+}
+
+.parent_node {
+  font: 12px sans-serif;
+}
+
+.parent_link {
+  fill: none;
+  stroke: #ccc;
+  stroke-opacity: 0.6;
+  stroke-width: 1.5px;
+}

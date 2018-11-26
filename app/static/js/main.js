@@ -1,7 +1,12 @@
 function init()
 {   
-    parentDiv = document.getElementById("parentHorse");
-    recordDiv = document.getElementById("recordHorse");
-    personDiv = document.getElementById("personHorse");
-    //recordInit()
+    ParentDiv = document.getElementById("parentHorse");
+    RecordDiv = document.getElementById("recordHorse");
+    PersonDiv = document.getElementById("personHorse");
+    parentDisplay();
+    SelectedHorseId = null;
+
+    $.ajaxSetup ({ 
+        cache: false //close AJAX cache 
+   }); 
 }

@@ -35,7 +35,8 @@ def getRecordData():
     attributes = ["Rtg","Pla","RaceDate",'Dist','FinishTime',"DeclarHorseWt"]
     record_result = record_result[attributes]
     record_result.index = pd.RangeIndex(len(record_result))
-    record_result.to_csv("static/dataset/recordHorse/result.csv",index=False)
+    filename = "static/dataset/recordHorse/result_"+id+".csv"
+    record_result.to_csv(filename,index=False)
     
     result = dict()
     result['state'] = True

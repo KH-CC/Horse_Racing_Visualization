@@ -3,6 +3,7 @@
         <title>{{title}}</title>
         <link rel="stylesheet" type="text/css" href="/static/css/main.css">
         <link rel="stylesheet" type="text/css" href="/static/css/record.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/parent.css">
 
 
         <script type="text/javascript">
@@ -15,23 +16,13 @@
         <script type="text/javascript"src="/static/js/recordHorse.js"></script>
         <script type="text/javascript"src="/static/js/personHorse.js"></script>
         <script type="text/javascript"src="/static/js/parentHorse.js"></script>
-
-        <script type="text/javascript">
-            function RecordTest()
-            {
-                var horseId = document.getElementById("testInput").value;
-                recordDisplay(horseId)
-            }
-        </script>
+        <script src="http://underscorejs.org/underscore.js"></script>
     </head>
 
     <body onLoad="init()">
     <div id="canvas">
         <div id="left">
-            <div id="parentHorse">
-                <input type="text" id="testInput" placeholder="Please input horseID" >
-                <button onClick= "RecordTest()">recordTest</button>
-            </div>
+            <div id="parentHorse"></div>
         </div>
         <div id="right">      
             <div id="personHorse"></div>

@@ -1,7 +1,7 @@
 function recordDisplay(horseID) //Display infomation of input horse ID
 {
-    while (recordDiv.firstChild) {
-        recordDiv.removeChild(recordDiv.firstChild)
+    while (RecordDiv.firstChild) {
+        RecordDiv.removeChild(RecordDiv.firstChild)
     }
     var data = {
         data: JSON.stringify({
@@ -74,7 +74,7 @@ function recordDisplay(horseID) //Display infomation of input horse ID
         data: data,
         success: function (result) {
             if (result.state) {
-                d3.csv("static/dataset/recordHorse/result.csv", function (error, data) {
+                d3.csv("static/dataset/recordHorse/result_"+horseID+".csv", function (error, data) {
 
                     //Create the dimensions depending on attribute "type" (number|string)
                     //The x-scale calculates the position by attribute dimensions[x].name
