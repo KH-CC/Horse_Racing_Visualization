@@ -5,6 +5,7 @@ function recordDisplay(horseID) //Display infomation of input horse ID
     }
     var title = document.createElement("p");
     var textnode = document.createTextNode("Past Record");
+    title.className = "record_p"
     title.appendChild(textnode)
     RecordDiv.appendChild(title)
     var data = {
