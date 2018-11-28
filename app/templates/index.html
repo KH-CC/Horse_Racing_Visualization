@@ -1,34 +1,41 @@
 <html>
-    <head>
-        <title>{{title}}</title>
-        <link rel="stylesheet" type="text/css" href="/static/css/main.css">
-        <link rel="stylesheet" type="text/css" href="/static/css/record.css">
-        <link rel="stylesheet" type="text/css" href="/static/css/parent.css">
+	<head>
+		<title>{{title}}</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/record.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/parent.css">
 
+		<script type="text/javascript" src="/static/js/imported/d3.v3.js"></script>
+		<script type="text/javascript" src="/static/js/imported/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="/static/js/main.js"></script>
+		<script type="text/javascript" src="/static/js/recordHorse.js"></script>
+		<script type="text/javascript" src="/static/js/manHorse.js"></script>
+		<script type="text/javascript" src="/static/js/parentHorse.js"></script>
+		<script type="text/javascript" src="/static/js/imported/underscore-min.js"></script>
+	</head>
 
-        <script type="text/javascript">
-            var dataHorse = {{data.horse_data|safe}}
-            var dataRecord = {{data.record_data|safe}};
-        </script>
-        <script type="text/javascript"src="/static/js/imported/d3.v3.js"></script>
-        <script type="text/javascript"src="/static/js/imported/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript"src="/static/js/main.js"></script>
-        <script type="text/javascript"src="/static/js/recordHorse.js"></script>
-        <script type="text/javascript"src="/static/js/personHorse.js"></script>
-        <script type="text/javascript"src="/static/js/parentHorse.js"></script>
-        <script src="http://underscorejs.org/underscore.js"></script>
-    </head>
-
-    <body onLoad="init()">
-    <div id="canvas">
-        <div id="left">
-            <div id="parentHorse"></div>
-        </div>
-        <div id="right">      
-            <div id="personHorse"></div>
-            <div id="recordHorse"></div>
-        </div>
-    </div>
-    </body>
+	<body onLoad="init()">
+		<div id="canvas">
+			<div id="left">
+				<div>
+				<p class="title">Horse Parentage Chart</p>
+				</div>
+				<div id="parentHorse"></div>
+			</div>
+			<div id="right">
+				<div id="manHorse">
+				<p class="title">Man Horse Chart</p>
+					<canvas id='Man_Horse_Chart' width="500px" height="500px"></canvas>
+				</div>
+				<div id="recordHorse">
+				<div>
+				<p class="title">Past Record Chart</p>
+				<p class="subinfo">Drag on axis to filter, drag on column name to relocate.</p>
+				</div>
+				<div id="recordHorseChart"></div>
+				</div>
+			</div>
+		</div>
+	</body>
 
 </html>

@@ -1,38 +1,51 @@
-
-#canvas{
-    position: relative;
-    border:1px solid;
-    
+#canvas {
+	position: relative;
+	width:1803px;
+	height:1190px;
+	margin:auto;
 }
 
-#left{
-    width:960px;
-    height:960px;
-    position:absolute;
-}
-#right{
-    position: absolute;
-    left:961px;
-    top: 0;
+#left {
+	padding-top:50px;
+	width: 1000px;
+	height: 1103px;
+	position: relative;
+	border-right:3px solid;
 
 }
-#parentHorse{  
-    border:1px solid;
-    width:100%;
-    height:100%;
-    background-color:white
+
+#right {
+	position: relative;
+	width:801;
+	left: 1003px;
+	top: -1155px;
+
+
 }
-#personHorse{
-    border:1px solid;
-    top:0px;
-    width:800px;
-    height:550px;
-    background-color:white
+
+#parentHorse {
+
+	background-color: white
 }
-#recordHorse{
-    border:1px solid;
-    top:0px;
-    width:800px;
-    height:550px;
-    background-color: white
+
+#manHorse {
+	
+	margin:auto;
+	width: 500px;
+	height: 550px;
+	background-color: white
+}
+
+#recordHorse {
+	border-top:3px solid;
+	background-color: white
+}
+
+.title{
+	text-align: center;
+	font-weight: bold;
+}
+.subinfo{
+	font-size:12px;
+	text-align:center;
 }

@@ -1,13 +1,9 @@
 function recordDisplay(horseID) //Display infomation of input horse ID
 {
-    while (RecordDiv.firstChild) {
-        RecordDiv.removeChild(RecordDiv.firstChild)
+    while (RecordChartDiv.firstChild) {
+        RecordChartDiv.removeChild(RecordChartDiv.firstChild)
     }
-    var title = document.createElement("p");
-    var textnode = document.createTextNode("Past Record");
-    title.className = "record_p"
-    title.appendChild(textnode)
-    RecordDiv.appendChild(title)
+
     var data = {
         data: JSON.stringify({
             "id": horseID
@@ -65,7 +61,7 @@ function recordDisplay(horseID) //Display infomation of input horse ID
         background,
         foreground;
 
-    var svg = d3.select("#recordHorse").append("svg")
+    var svg = d3.select("#recordHorseChart").append("svg")
         .attr("class","record_svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
