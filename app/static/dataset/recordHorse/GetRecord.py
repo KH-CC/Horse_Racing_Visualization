@@ -17,5 +17,8 @@ edit_records = pd.concat([sireList, edit_records], sort=False, ignore_index=Fals
 attributes = ["HorseID", "Rtg", "Sire", "Pla", "RaceDate", 'Dist', 'FinishTime', "DeclarHorseWt"]
 all_record = edit_records[attributes]
 all_record = all_record.fillna(0)
+all_record['Pla'] = all_record['Pla'].apply(lambda x: 10 if x == 99 else x)
+all_record['Dist'] = all_record['Dist'].apply(lambda x: 1300 if x == 0 else x)
+all_record['DeclarHorseWt'] = all_record['DeclarHorseWt'].apply(lambda x: 1100 if x == 0 else x)
 all_record.to_csv("all_record.csv", index=False)
 print(all_record)

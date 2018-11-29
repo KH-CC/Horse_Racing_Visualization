@@ -40,3 +40,7 @@
     width: 800px;
 	height: 500px;
 }
+#recordHorseInfo{
+    height:82px;
+    overflow: hidden;
+}

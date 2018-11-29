@@ -15,24 +15,25 @@
 	</head>
 
 	<body onLoad="init()">
+	<h1>HKJC Horse Racing Visualization</h1>
 		<div id="canvas">
 			<div id="left">
 				<div>
-				<p class="title">Horse Parentage Chart</p>
+					<p class="title">Horse Parentage Chart</p>
 				</div>
 				<div id="parentHorse"></div>
 			</div>
 			<div id="right">
 				<div id="manHorse">
-				<p class="title">Man Horse Chart</p>
+					<p class="title">Man Horse Chart</p>
 					<canvas id='Man_Horse_Chart' width="500px" height="500px"></canvas>
 				</div>
 				<div id="recordHorse">
-				<div>
-				<p class="title">Past Record Chart</p>
-				<p class="subinfo">Drag on axis to filter, drag on column name to relocate.</p>
-				</div>
-				<div id="recordHorseChart"></div>
+					<div id="recordHorseInfo">
+						<p class="title">Past Record Chart</p>
+						<p class="subinfo">Drag on axis to filter, drag on column name to relocate.</p>
+					</div>
+					<div id="recordHorseChart"></div>
 				</div>
 			</div>
 		</div>

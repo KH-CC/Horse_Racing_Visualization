@@ -53,7 +53,7 @@ def getPersonData():
     data = json.loads(request.form.get('data'))
     identity = data["id"]
 
-    df_man_horse = pd.read_csv('static/dataset/edit_horse.csv')
+    df_man_horse = pd.read_csv(os.path.join(DATADIR,'edit_horse.csv'))
     targeted_horse_info = df_man_horse[df_man_horse['HorseID'] == str(identity)]
 
     result = dict()

@@ -53,7 +53,7 @@ function manDisplay(horseID) //Display man information of input horse ID
 						owner_img, bronze_num, silver_num, golden_num, jockey_img)
 			}
 			saddle_img.src = "/static/imgs/saddle_" + result.country + ".png"
-			// console.log(result.country)
+			
 
 			bronze_img.onload = function() {
 				progress += 1
