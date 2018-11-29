@@ -5,6 +5,7 @@ function init() {
 	RecordChartDiv = document.getElementById("recordHorseChart")
 	
 	parentDisplay();
+	recordDisplay("init");
 	SelectedHorseId = null;
 
 	$.ajaxSetup({
