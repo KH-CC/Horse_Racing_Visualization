@@ -1,6 +1,6 @@
 Horse_Racing_Visualization
 ===
-Project of MSBD5005
+The visualization is completed and avaliable on http://flask.kahungchong.com
 ---
 Flask is used as framework
 
@@ -68,10 +68,10 @@ After setting up, there are two ways to run the server:
 - Run python script way
 
 
-1.  Just run `Horse_Racing_Visualization/app/run.py`, then the server will start.
+1.  Just run `Horse_Racing_Visualization/app/flaskapp.py`, then the server will start.
 
 
-2.  To turn on debug mode, just change the last line of `run.py` file
+2.  To turn on debug mode, just change the last line of `flaskapp.py` file
 
     from `app.run()` to `app.run(debug=True)`
 
