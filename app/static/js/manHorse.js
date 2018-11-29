@@ -28,11 +28,19 @@ function manDisplay(horseID) //Display man information of input horse ID
 			var silver_img = new Image()
 			var golden_img = new Image()
 
+			var trainer_bronze_img = new Image()
+			var trainer_silver_img = new Image()
+			var trainer_golden_img = new Image()
+
 			var bronze_num = parseInt(result.bronze_medal)
 			var silver_num = parseInt(result.silver_medal)
 			var golden_num = parseInt(result.golden_medal)
 
-			var limit = 8
+			var trainer_bronze = parseInt(result.trainer_bronze)
+			var trainer_silver = parseInt(result.trainer_silver)
+			var trainer_golden = parseInt(result.trainer_golden)
+
+			var limit = 11
 
 			var age = parseInt(result.age)
 
@@ -40,8 +48,7 @@ function manDisplay(horseID) //Display man information of input horse ID
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
-
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 			}
 			horse_img.src = "/static/imgs/horse_" + result.color + ".png"
 
@@ -50,16 +57,16 @@ function manDisplay(horseID) //Display man information of input horse ID
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 			}
 			saddle_img.src = "/static/imgs/saddle_" + result.country + ".png"
-			
+			// console.log(result.country)
 
 			bronze_img.onload = function() {
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 			}
 			if (bronze_num > 0)
 				bronze_img.src = "/static/imgs/medal_bronze.png"
@@ -71,7 +78,7 @@ function manDisplay(horseID) //Display man information of input horse ID
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 			}
 			if (silver_num > 0)
 				silver_img.src = "/static/imgs/medal_silver.png"
@@ -83,7 +90,7 @@ function manDisplay(horseID) //Display man information of input horse ID
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 			}
 			if (golden_num > 0)
 				golden_img.src = "/static/imgs/medal_gold.png"
@@ -91,11 +98,11 @@ function manDisplay(horseID) //Display man information of input horse ID
 				golden_img.src = "/static/imgs/Not_a_thing.png"
 
 			jockey_img.onload = function() {
-
+				jockey_img
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 			}
 			jockey_num = result.id.charCodeAt(0) % 3 + 1
 			jockey_img.src = '/static/imgs/jockey_0' + jockey_num + '.png'
@@ -105,29 +112,73 @@ function manDisplay(horseID) //Display man information of input horse ID
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 
 			}
 			trainer_num = result.trainer[0] > 'O' ? '01' : '02'
 			trainer_img.src = '/static/imgs/trainer_' + trainer_num + '.png'
+
+			trainer_bronze_img.onload = function() {
+
+				progress += 1
+				if (progress == limit)
+					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
+
+			}
+			if (trainer_bronze > 0)
+				trainer_bronze_img.src = '/static/imgs/trainer_bronze.png'
+			else
+				trainer_bronze_img.src = '/static/imgs/Not_a_thing.png'
+
+			trainer_silver_img.onload = function() {
+
+				progress += 1
+				if (progress == limit)
+					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
+
+			}
+			if (trainer_silver > 0)
+				trainer_silver_img.src = '/static/imgs/trainer_silver.png'
+			else
+				trainer_silver_img.src = '/static/imgs/Not_a_thing.png'
+
+			trainer_golden_img.onload = function() {
+
+				progress += 1
+				if (progress == limit)
+					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
+			}
+			if (trainer_golden > 0)
+				trainer_golden_img.src = '/static/imgs/trainer_golden.png'
+			else
+				trainer_golden_img.src = '/static/imgs/Not_a_thing.png'
+
 
 			owner_img.onload = function() {
 
 				progress += 1
 				if (progress == limit)
 					drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-						owner_img, bronze_num, silver_num, golden_num, jockey_img)
-
+						owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img)
 			}
 			owner_num = result.owner[0] > 'O' ? '01' : '02'
 			owner_img.src = '/static/imgs/owner_' + owner_num + '.png'
+
+			cxt.font = c.height / 36 + 'px Arial'
+			cxt.fontStyle = '#222233 bold'
+			// cxt.fillText(result.name, 0, 20)
+// 			cxt.fillText(result.trainer, 0.58 * c.width, c.height)
+// 			cxt.fillText(result.owner, 0.72 * c.width, c.height)
 		}
 	})
 
 }
 
 function drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_img, golden_img, age, trainer_img,
-	owner_img, bronze_num, silver_num, golden_num, jockey_img) {
+	owner_img, bronze_num, trainer_bronze_img, trainer_silver_img, trainer_golden_img, jockey_img) {
 	var shrink_ratio = 1
 	if (horse_img.width > c.width || horse_img.height > c.height)
 		shrink_ratio = horse_img.width / c.width > horse_img.height / c.height ? horse_img.width / c.width : horse_img
@@ -166,12 +217,27 @@ function drawImagesInCanvas(c, cxt, horse_img, saddle_img, bronze_img, silver_im
 
 	var img_new_width = trainer_img.width / shrink_ratio * 0.55
 	var img_new_height = trainer_img.height / shrink_ratio * 0.55
-	cxt.drawImage(trainer_img, c.width - img_new_width * 1.12, c.height - img_new_height * 0.95, img_new_width,
+	cxt.drawImage(trainer_img, c.width - img_new_width * 1.16, c.height - img_new_height * 0.962, img_new_width,
+		img_new_height)
+
+	var img_new_width = trainer_img.width / shrink_ratio * 0.55
+	var img_new_height = trainer_img.height / shrink_ratio * 0.55
+	cxt.drawImage(trainer_bronze_img, c.width - img_new_width * 1.16, c.height - img_new_height * 0.962, img_new_width,
+		img_new_height)
+
+	var img_new_width = trainer_img.width / shrink_ratio * 0.55
+	var img_new_height = trainer_img.height / shrink_ratio * 0.55
+	cxt.drawImage(trainer_silver_img, c.width - img_new_width * 1.16, c.height - img_new_height * 0.962, img_new_width,
+		img_new_height)
+
+	var img_new_width = trainer_img.width / shrink_ratio * 0.55
+	var img_new_height = trainer_img.height / shrink_ratio * 0.55
+	cxt.drawImage(trainer_golden_img, c.width - img_new_width * 1.16, c.height - img_new_height * 0.962, img_new_width,
 		img_new_height)
 
 	var img_new_width = owner_img.width / shrink_ratio * 0.55
 	var img_new_height = owner_img.height / shrink_ratio * 0.55
-	cxt.drawImage(owner_img, c.width - img_new_width * 0.78, c.height - img_new_height * 0.95, img_new_width,
+	cxt.drawImage(owner_img, c.width - img_new_width * 0.78, c.height - img_new_height * 0.962, img_new_width,
 		img_new_height)
 
 }

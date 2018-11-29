@@ -68,6 +68,15 @@ def getPersonData():
     result['golden_medal'] = str(targeted_horse_info['123Starts'].values[0])[0]
     result['silver_medal'] = str(targeted_horse_info['123Starts'].values[0])[2]
     result['bronze_medal'] = str(targeted_horse_info['123Starts'].values[0])[4]
+    
+
+    result['trainer_golden'] = str(
+        sum([int(a[0]) for a in df_man_horse[df_man_horse['Trainer'] == result['trainer']]['123Starts'].values]))
+    result['trainer_silver'] = str(
+        sum([int(a[2]) for a in df_man_horse[df_man_horse['Trainer'] == result['trainer']]['123Starts'].values]))
+    result['trainer_bronze'] = str(
+        sum([int(a[4]) for a in df_man_horse[df_man_horse['Trainer'] == result['trainer']]['123Starts'].values]))
+
     return jsonify(result)
 
 
